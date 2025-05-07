@@ -21,12 +21,12 @@ print(ella)
 class Dog:
     def __init__(self, name):
         self.name = name
-    def __str__(self):
-      return f"{self.name} is a dog"
+    def __str__(self): #changes what prints when you print the cat - print(ella)
+        return f"a 🐶dog named {self.name}"
+    def speak(self):
+        print(f"{self.name} says bark!🐶")
 
 # Make a new object of class `Dog` and print it out
 #### YOUR CODE HERE ####
-bartholomew = Dog("Bartholomew")
-print(bartholomew)
-
-
+strudel = Dog("Strudel")
+print(strudel)
